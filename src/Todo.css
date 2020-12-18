@@ -1,0 +1,26 @@
+.todo {
+  display: flex;
+}
+
+.todo__modal {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: gray;
+}
+
+.todo__button {
+  color: #303f9f !important;
+}
+
+.todo__editIcon {
+  padding-left: 13px;
+  padding-right: 13px;
+  color: limegreen;
+}
+
+.todo__deleteIcon {
+  padding-left: 13px;
+  padding-right: 13px;
+  color: red;
+}
